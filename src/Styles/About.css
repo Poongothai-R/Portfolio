@@ -1,0 +1,31 @@
+#about {
+    background-color: #b52b52;
+    padding:10px;
+    padding-top: 80px;
+}
+.page_left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.page_left p {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+.page_right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-bottom: 0;
+}
+
+.about_img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
