@@ -45,6 +45,7 @@
     align-items: center;
     box-shadow: 10px 4px 30px #000000;
     transform: matrix(1, 0, 0, 1, 0, 0);
+    cursor: pointer;
 }
 
 .project-card img {

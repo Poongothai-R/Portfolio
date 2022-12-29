@@ -1,6 +1,6 @@
 import ProjectData from '../Data/Project_data.json';
 import ProjectCard from '../Components/Project_card';
-import ModalCard from '../Components/Formulary';
+import ModalCard from '../Components/modalcard';
 import '../Styles/projects.css';
 
 export default function projects({setShowModal}) {

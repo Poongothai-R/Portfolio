@@ -6,7 +6,6 @@ export default function Modal({ showModal, setShowModal }) {
     if (showModal === null) return null;
 
     return ReactDOM.createPortal(
-        <>
             <div className="overlay_style">
                 <div className="modal_style">
                     <div className="btn_cancel">
@@ -15,7 +14,7 @@ export default function Modal({ showModal, setShowModal }) {
                     {showModal}
                 </div>
             </div>
-        </>,
+        ,
         document.getElementById("portal")
     );
 }

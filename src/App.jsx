@@ -19,7 +19,7 @@ function App() {
         <Hero/>
       <About/>
 
-        <Projects showModal={showModal}/>
+        <Projects setShowModal={setShowModal}/>
         <Tech/>
         <Contact/>
         <Modal showModal={showModal} setShowModal={setShowModal} />

@@ -7,7 +7,7 @@
     "description": "A shopping list app where users can add items to the shopping list",
     "technologies": ["React", "JavaScript", "HTML", "CSS", "Netlify"],
     "isCompleted": true,
-    "screenshot": "eika_shoppinglist.jpeg",
+    "screenshot": "Eika_shoppingList.jpeg",
     "githubURL": "https://github.com/Poongothai-R/Eika-ToDoList",
     "websiteURL": "https://eika-shoppinglist.netlify.app/"
   },
