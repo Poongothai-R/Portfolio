@@ -5,11 +5,16 @@
  export default function Header() {
      return (
          <div className="navbar">
-             <nav>
-             <a href="#home" >
+             <nav className="navbar_links">
+             <a href="#home" className="big_screen">
                  <img className='logo' src={Logo} alt="A logo with the initial PR " />
              </a>
-             <ul >
+             <ul className="nav_menu">
+                 <li>
+                     <a href="#home" className="mobile_screen">
+                         <img className="logo" src={Logo} alt="A logo with the initial PR" />
+                     </a>
+                 </li>
                  <li>
                      <a href="#about">About</a>
                  </li>
